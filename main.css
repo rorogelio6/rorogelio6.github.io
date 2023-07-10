@@ -1,3 +1,19 @@
 body {
   background-color: black;
 }
+
+@keyframes blink {
+  0% {
+    color: white;
+  }
+  50% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.header {
+  animation: blink 1s infinite;
+}
