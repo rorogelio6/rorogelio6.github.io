@@ -19,8 +19,7 @@ nav ul {
   padding: 0;
 }
 
-nav ul li {
-  display: inline-block;
+nav ul li:last-child {
   margin-right: 10px;
 }
 
